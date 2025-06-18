@@ -2,6 +2,9 @@
 
 This workspace demonstrates an efficient Tailwind CSS setup using Nx Sync Generators to automatically manage glob patterns based on project dependencies.
 
+- [Check out the video](https://www.youtube.com/watch?v=huTmV-F8c0A)
+- Using Tailwind 4? [Check out this demo repo](https://github.com/juristr/tailwind4-vite-npm-workspaces)
+
 ## Overview
 
 The workspace contains an e-commerce application (`@aishop/shop`) with multiple feature libraries organized by domain (orders, products, shared). To optimize Tailwind CSS compilation, we've implemented a custom Nx Sync Generator that dynamically updates the Tailwind configuration to only scan files from libraries that are actual dependencies of the shop application.
